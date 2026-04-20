@@ -1,0 +1,8 @@
+<!ELEMENT students (student+)>
+<!ATTLIST students
+  xmlns:xsi CDATA #IMPLIED
+  xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT student (name, age, course)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
